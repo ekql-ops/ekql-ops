@@ -81,6 +81,20 @@
 
 ---
 
+### ⏱️ [WorkTrack — Employee Shift Clock-In System](https://github.com/AbubakarAli8/worktrack)
+> A React-based employee clock-in/out app, born out of using a buggy shift app at work and wondering if I could build something smoother. Features a tap-to-clock-in shift list, a live countdown ring, late-shift alerts, and a full admin panel for managing sessions.
+
+`React` `JavaScript` `CSS`
+
+---
+
+### 🩸 DBD Bot — Dead by Daylight Discord Bot
+A full-featured Discord bot built for a Dead by Daylight community. Includes a custom perk and killer database with live tier info, moderation tools, XP leveling, ticket system, and verification — all in a custom orange/purple theme.
+
+`Node.js` `Discord.js` `discord-player` `REST API`
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
