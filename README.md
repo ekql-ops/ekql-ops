@@ -88,7 +88,7 @@
 
 ---
 
-### 🩸 DBD Bot — Dead by Daylight Discord Bot
+### 🩸 [DBD Bot — Dead by Daylight Discord Bot](https://github.com/AbubakarAli8/DBD-Bot)
 A full-featured Discord bot built for a Dead by Daylight community. Includes a custom perk and killer database with live tier info, moderation tools, XP leveling, ticket system, and verification — all in a custom orange/purple theme.
 
 `Node.js` `Discord.js` `discord-player` `REST API`
