@@ -1,0 +1,27 @@
+<svg width="800" height="20" viewBox="0 0 800 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="20%"  stop-color="#4a4a4a" stop-opacity="1"/>
+      <stop offset="50%"  stop-color="#8b949e" stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#4a4a4a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0">
+        <animate attributeName="offset" values="-0.5;1.5" dur="2.5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="10%"  stop-color="#ffffff" stop-opacity="0.6">
+        <animate attributeName="offset" values="-0.4;1.6" dur="2.5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="20%"  stop-color="#ffffff" stop-opacity="0">
+        <animate attributeName="offset" values="-0.3;1.7" dur="2.5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="20" fill="#0d1117"/>
+  <rect x="0" y="9" width="800" height="1" fill="url(#lineGrad)"/>
+  <rect x="0" y="9" width="800" height="1" fill="url(#pulseGrad)" opacity="0.8"/>
+</svg>

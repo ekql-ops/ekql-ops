@@ -1,35 +1,41 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=BSc+Computer+Science+%40+MMU;Java+%7C+Python+%7C+C%23+%7C+JavaScript;3x+Microsoft+Azure+Certified;Building+things+that+actually+work)](https://git.io/typing-svg)
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/tagline.svg" alt="akira@mmu:~/projects$ whoami" width="800"/>
 
 </div>
 
----
+<br/>
 
-### About
+<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=8b949e&text_color=8b949e&rank_icon=github" />
 
-I'm a second-year CS student based in Manchester, building things across Java, Python, C#, and JavaScript. I hold three Microsoft Azure certifications and spend most of my time working on personal projects and contributing to the MMU Minecraft Society bot.
+### Akira
 
-Currently exploring **Spring Boot** and **Docker**.
+Second-year CS student at Manchester Metropolitan University.
+Building across Java, Python, C#, and JavaScript — 3x Microsoft Azure certified.
 
----
+Currently working as a **part-time assistant nurse** at a dialysis hospital
+and contributing to the **MMU Minecraft Society** bot as a group project.
+
+<br clear="right"/>
+
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/status.svg" alt="status" width="400"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/divider.svg" alt="" width="100%"/>
 
 ### Projects
 
-<div align="center">
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [SecureVault](https://github.com/ekql-ops/securevault) | AES-256 encrypted CLI password manager | Python |
+| [GradeTracker](https://github.com/ekql-ops/grade-tracker) | Student grade management with SQLite | Java |
+| [Azure Sentiment Analyser](https://github.com/ekql-ops/azure-sentiment) | Real-time sentiment analysis via Azure AI | Python |
+| [WorkTrack](https://github.com/ekql-ops/worktrack) | Employee clock-in app with admin panel | React |
+| [DBD Bot](https://github.com/ekql-ops/DBD-Bot) | Full Discord bot for a gaming community | Node.js |
+| [MMU Minecraft Society Bot](https://github.com/impossibleiman/Discord-Bot-Group-Project) | Live university group project Discord bot | Java |
 
-[![SecureVault](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=securevault&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/securevault)
-[![GradeTracker](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=grade-tracker&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/grade-tracker)
-
-[![Azure Sentiment Analyser](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=azure-sentiment&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/azure-sentiment)
-[![WorkTrack](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=worktrack&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/worktrack)
-
-[![DBD Bot](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=DBD-Bot&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/DBD-Bot)
-[![MMU Minecraft Society Bot](https://github-readme-stats.vercel.app/api/pin/?username=impossibleiman&repo=Discord-Bot-Group-Project&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/impossibleiman/Discord-Bot-Group-Project)
-
-</div>
-
----
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/divider.svg" alt="" width="100%"/>
 
 ### Tech Stack
 
@@ -47,7 +53,7 @@ Currently exploring **Spring Boot** and **Docker**.
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
----
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/divider.svg" alt="" width="100%"/>
 
 ### Certifications
 
@@ -55,7 +61,7 @@ Currently exploring **Spring Boot** and **Docker**.
 - Microsoft Certified: Azure AI Fundamentals — AI-900
 - Microsoft Certified: Power BI Data Analyst Associate — PL-300
 
----
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/divider.svg" alt="" width="100%"/>
 
 ### Education
 
@@ -67,23 +73,23 @@ Currently exploring **Spring Boot** and **Docker**.
 **HND Applied Science** — Holy Cross Sixth Form College *(2023)*  
 A* — Applied Science · Laboratory Skills & Research
 
----
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/divider.svg" alt="" width="100%"/>
 
 ### Stats
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=ffffff&text_color=8b949e&rank_icon=github)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ekql-ops&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=8b949e&text_color=8b949e"/>
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekql-ops&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e"/>
 
-![Streak](https://streak-stats.demolab.com?user=ekql-ops&theme=dark&hide_border=true&background=0d1117&stroke=21262d&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)
+<img width="65%" src="https://streak-stats.demolab.com?user=ekql-ops&theme=dark&hide_border=true&background=0d1117&stroke=21262d&ring=ffffff&fire=8b949e&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff"/>
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-📫 bakri20041@outlook.com &nbsp;·&nbsp; Manchester, UK &nbsp;·&nbsp; Open to placements and part-time roles
+`bakri20041@outlook.com` · Manchester, UK · Open to placements and part-time roles
 
 </div>

@@ -1,0 +1,50 @@
+<svg width="800" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&amp;display=swap');
+
+      .container { font-family: 'Fira Code', 'Courier New', monospace; }
+
+      .prompt { fill: #4a4a4a; font-size: 15px; }
+      .slash  { fill: #6e6e6e; font-size: 15px; }
+      .text   { fill: #e0e0e0; font-size: 15px; }
+      .cursor { fill: #e0e0e0; animation: blink 1s step-end infinite; }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+
+      .line1 { animation: fadeIn 0.5s ease forwards; opacity: 0; }
+      .line2 { animation: fadeIn 0.5s 0.8s ease forwards; opacity: 0; }
+      .line3 { animation: fadeIn 0.5s 1.6s ease forwards; opacity: 0; }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateX(-8px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="60" fill="#0d1117" rx="8"/>
+
+  <!-- Window dots -->
+  <circle cx="18" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="34" cy="14" r="5" fill="#febc2e"/>
+  <circle cx="50" cy="14" r="5" fill="#28c840"/>
+
+  <!-- Terminal text line 1 -->
+  <g class="line1">
+    <text x="20" y="36" class="prompt">akira@mmu</text>
+    <text x="112" y="36" class="slash">:</text>
+    <text x="120" y="36" class="prompt">~/projects</text>
+    <text x="215" y="36" class="slash">$</text>
+    <text x="228" y="36" class="text">whoami</text>
+  </g>
+
+  <!-- Terminal text line 2 -->
+  <g class="line2">
+    <text x="20" y="54" class="text">CS Student · Azure Certified · Building things that work</text>
+    <rect x="495" y="42" width="9" height="14" class="cursor"/>
+  </g>
+</svg>
