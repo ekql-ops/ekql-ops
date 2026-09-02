@@ -38,6 +38,11 @@ jobs:
           path: assets/top-langs.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
+      - name: Match cards to the README's monochrome palette
+        run: |
+          node .github/scripts/monochrome.mjs assets/stats.svg
+          node .github/scripts/monochrome.mjs assets/top-langs.svg
+
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
