@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/tagline.svg" alt="akira@mmu:~/projects$ whoami" width="800"/>
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/tagline.svg" alt="PS C:\Users\akira&gt; whoami" width="800"/>
 
 </div>
 

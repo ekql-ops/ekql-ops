@@ -1,53 +1,73 @@
-<svg width="800" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="84" viewBox="0 0 800 84" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      /* Applied to `text` directly, not to a wrapper class: GitHub renders
-         README SVGs as <img>, and the font must reach the text nodes here.
-         No @import either — <img>-rendered SVGs cannot fetch external
-         resources, so a Google Fonts webfont would never load. The fallbacks
-         are locally installed fonts, which is what actually renders. */
-      text { font-family: 'Fira Code', 'Courier New', 'DejaVu Sans Mono', monospace; }
+    <clipPath id="winClip">
+      <rect width="800" height="84" rx="8"/>
+    </clipPath>
 
-      .prompt { fill: #4a4a4a; font-size: 15px; }
-      .slash  { fill: #6e6e6e; font-size: 15px; }
-      .text   { fill: #e0e0e0; font-size: 15px; }
-      .cursor { fill: #e0e0e0; animation: blink 1s step-end infinite; }
+    <style><![CDATA[
+      /* Set on `text` itself, not a wrapper class: the font has to reach the
+         text nodes. No webfont @import — GitHub renders README SVGs as images,
+         which cannot fetch external resources, so only locally installed
+         fonts render. Consolas is the Windows Terminal / VS Code default. */
+      text {
+        font-family: Consolas, 'Cascadia Mono', 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+      }
 
+      .tabname { font-size: 12px; fill: #c9d1d9; }
+      .dim     { fill: #6e7681; }
+      .path    { fill: #8b949e; }
+      .cmd     { fill: #f0f6fc; }
+      .out     { fill: #c9d1d9; }
+
+      .chrome  { stroke: #8b949e; stroke-width: 1.2; fill: none; }
+
+      .cursor { fill: #f0f6fc; animation: blink 1s step-end infinite; }
       @keyframes blink {
         0%, 100% { opacity: 1; }
-        50%       { opacity: 0; }
+        50%      { opacity: 0; }
       }
 
       .line1 { animation: fadeIn 0.5s ease forwards; opacity: 0; }
       .line2 { animation: fadeIn 0.5s 0.8s ease forwards; opacity: 0; }
-      .line3 { animation: fadeIn 0.5s 1.6s ease forwards; opacity: 0; }
-
       @keyframes fadeIn {
         from { opacity: 0; transform: translateX(-8px); }
         to   { opacity: 1; transform: translateX(0); }
       }
-    </style>
+    ]]></style>
   </defs>
 
-  <rect width="800" height="60" fill="#0d1117" rx="8"/>
+  <g clip-path="url(#winClip)">
+    <rect width="800" height="84" fill="#0d1117"/>
 
-  <!-- Window dots -->
-  <circle cx="18" cy="14" r="5" fill="#ff5f57"/>
-  <circle cx="34" cy="14" r="5" fill="#febc2e"/>
-  <circle cx="50" cy="14" r="5" fill="#28c840"/>
+    <!-- Title bar -->
+    <rect width="800" height="28" fill="#161b22"/>
 
-  <!-- Terminal text line 1 -->
+    <!-- Active editor tab -->
+    <rect x="8" y="0" width="132" height="28" fill="#0d1117"/>
+    <rect x="8" y="0" width="132" height="2" fill="#8b949e"/>
+    <text x="22" y="18" class="tabname">whoami.ps1</text>
+
+    <!-- Windows-style caption buttons: minimise, maximise, close -->
+    <path class="chrome" d="M722 14 h12"/>
+    <rect class="chrome" x="748" y="8" width="12" height="12"/>
+    <path class="chrome" d="M774 8 l12 12 M786 8 l-12 12"/>
+  </g>
+
+  <!-- Prompt line: tspan dx spacing avoids hand-computed x offsets -->
   <g class="line1">
-    <text x="20" y="36" class="prompt">akira@mmu</text>
-    <text x="112" y="36" class="slash">:</text>
-    <text x="120" y="36" class="prompt">~/projects</text>
-    <text x="215" y="36" class="slash">$</text>
-    <text x="228" y="36" class="text">whoami</text>
+    <text x="20" y="54">
+      <tspan class="dim">PS</tspan>
+      <tspan class="path" dx="8">C:\Users\akira&gt;</tspan>
+      <tspan class="cmd" dx="8">whoami</tspan>
+    </text>
   </g>
 
-  <!-- Terminal text line 2 -->
+  <!-- Output line -->
   <g class="line2">
-    <text x="20" y="54" class="text">CS Student · Azure Certified · Building things that work</text>
-    <rect x="495" y="42" width="9" height="14" class="cursor"/>
+    <text x="20" y="74" class="out">CS Student · Azure Certified · Building things that work</text>
+    <rect x="492" y="63" width="8" height="13" class="cursor"/>
   </g>
+
+  <rect x="0.5" y="0.5" width="799" height="83" rx="8" fill="none" stroke="#21262d"/>
 </svg>
