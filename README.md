@@ -18,7 +18,7 @@ and contributing to the **MMU Minecraft Society** bot as a group project.
 
 <br clear="right"/>
 
-<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/status.svg" alt="status" width="400"/>
+<img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/status.svg" alt="status" width="800"/>
 
 <br/>
 
