@@ -6,16 +6,12 @@
 
 <br/>
 
-<img align="right" width="360" src="./assets/stats.svg" />
-
 ### Akira
 
 Second-year CS student at Manchester Metropolitan University.
 Building across Java, Python, C#, and JavaScript — 3x Microsoft Azure certified.
 
 Currently working as a **part-time assistant** and contributing to the **MMU Minecraft Society** bot as a group project.
-
-<br clear="right"/>
 
 <img src="https://raw.githubusercontent.com/ekql-ops/ekql-ops/main/assets/status.svg" alt="status" width="800"/>
 
