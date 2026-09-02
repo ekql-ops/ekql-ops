@@ -13,8 +13,7 @@
 Second-year CS student at Manchester Metropolitan University.
 Building across Java, Python, C#, and JavaScript — 3x Microsoft Azure certified.
 
-Currently working as a **part-time assistant nurse** at a dialysis hospital
-and contributing to the **MMU Minecraft Society** bot as a group project.
+Currently working as a **part-time assistant** and contributing to the **MMU Minecraft Society** bot as a group project.
 
 <br clear="right"/>
 
