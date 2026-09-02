@@ -1,9 +1,12 @@
 <svg width="800" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&amp;display=swap');
-
-      .container { font-family: 'Fira Code', 'Courier New', monospace; }
+      /* Applied to `text` directly, not to a wrapper class: GitHub renders
+         README SVGs as <img>, and the font must reach the text nodes here.
+         No @import either — <img>-rendered SVGs cannot fetch external
+         resources, so a Google Fonts webfont would never load. The fallbacks
+         are locally installed fonts, which is what actually renders. */
+      text { font-family: 'Fira Code', 'Courier New', 'DejaVu Sans Mono', monospace; }
 
       .prompt { fill: #4a4a4a; font-size: 15px; }
       .slash  { fill: #6e6e6e; font-size: 15px; }
