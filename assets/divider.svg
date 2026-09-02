@@ -1,11 +1,14 @@
 <svg width="800" height="20" viewBox="0 0 800 20" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Ends fade to transparent rather than to a background colour, so the
+         line tapers correctly on any GitHub theme (dark, dimmed or light)
+         instead of only against #0d1117. -->
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="0%"   stop-color="#8b949e" stop-opacity="0"/>
       <stop offset="20%"  stop-color="#4a4a4a" stop-opacity="1"/>
       <stop offset="50%"  stop-color="#8b949e" stop-opacity="1"/>
       <stop offset="80%"  stop-color="#4a4a4a" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8b949e" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -21,7 +24,8 @@
     </linearGradient>
   </defs>
 
-  <rect width="800" height="20" fill="#0d1117"/>
+  <!-- No background rect: the divider is just the line, so it sits directly on
+       whatever the page background happens to be. -->
   <rect x="0" y="9" width="800" height="1" fill="url(#lineGrad)"/>
   <rect x="0" y="9" width="800" height="1" fill="url(#pulseGrad)" opacity="0.8"/>
 </svg>
