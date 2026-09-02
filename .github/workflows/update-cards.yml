@@ -1,0 +1,43 @@
+name: Update stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Pinned to a commit SHA rather than the @v1 tag on purpose: the tag is
+      # reachable via a redirect from the abandoned readme-tools org, whose
+      # name could be re-registered by a third party. A SHA cannot be repointed.
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1
+        with:
+          card: stats
+          options: username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=8b949e&text_color=8b949e&rank_icon=github
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1
+        with:
+          card: top-langs
+          options: username=ekql-ops&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/top-langs.svg
+          git diff --staged --quiet && echo "No card changes." && exit 0
+          git commit -m "Update stats cards"
+          git push

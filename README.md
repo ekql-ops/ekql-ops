@@ -6,7 +6,7 @@
 
 <br/>
 
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=8b949e&text_color=8b949e&rank_icon=github" />
+<img align="right" width="360" src="./assets/stats.svg" />
 
 ### Akira
 
@@ -79,8 +79,8 @@ A* — Applied Science · Laboratory Skills & Research
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=8b949e&text_color=8b949e"/>
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ekql-ops&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e"/>
+<img height="155" src="./assets/stats.svg"/>
+<img height="155" src="./assets/top-langs.svg"/>
 
 <img width="65%" src="https://streak-stats.demolab.com?user=ekql-ops&theme=dark&hide_border=true&background=0d1117&stroke=21262d&ring=ffffff&fire=8b949e&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff"/>
 
