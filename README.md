@@ -1,6 +1,8 @@
-# Akira
+<div align="center">
 
-BSc Computer Science @ Manchester Metropolitan University — 2024–2027
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=BSc+Computer+Science+%40+MMU;Java+%7C+Python+%7C+C%23+%7C+JavaScript;3x+Microsoft+Azure+Certified;Building+things+that+actually+work)](https://git.io/typing-svg)
+
+</div>
 
 ---
 
@@ -14,14 +16,36 @@ Currently exploring **Spring Boot** and **Docker**.
 
 ### Projects
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [SecureVault](https://github.com/ekql-ops/securevault) | AES-256 encrypted CLI password manager | Python |
-| [GradeTracker](https://github.com/ekql-ops/grade-tracker) | Student grade management with SQLite | Java |
-| [Azure Sentiment Analyser](https://github.com/ekql-ops/azure-sentiment) | Real-time sentiment analysis via Azure AI | Python |
-| [WorkTrack](https://github.com/ekql-ops/worktrack) | Employee clock-in app with admin panel | React |
-| [DBD Bot](https://github.com/ekql-ops/DBD-Bot) | Full Discord bot for a gaming community | Node.js |
-| [MMU Minecraft Society Bot](https://github.com/impossibleiman/Discord-Bot-Group-Project) | University group project — live Discord bot | Java |
+<div align="center">
+
+[![SecureVault](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=securevault&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/securevault)
+[![GradeTracker](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=grade-tracker&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/grade-tracker)
+
+[![Azure Sentiment Analyser](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=azure-sentiment&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/azure-sentiment)
+[![WorkTrack](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=worktrack&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/worktrack)
+
+[![DBD Bot](https://github-readme-stats.vercel.app/api/pin/?username=ekql-ops&repo=DBD-Bot&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/ekql-ops/DBD-Bot)
+[![MMU Minecraft Society Bot](https://github-readme-stats.vercel.app/api/pin/?username=impossibleiman&repo=Discord-Bot-Group-Project&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=ffffff)](https://github.com/impossibleiman/Discord-Bot-Group-Project)
+
+</div>
+
+---
+
+### Tech Stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
 ---
 
@@ -47,9 +71,19 @@ A* — Applied Science · Laboratory Skills & Research
 
 ### Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=ffffff&text_color=8b949e)
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=ffffff&text_color=8b949e&rank_icon=github)
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ekql-ops&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)
+
+![Streak](https://streak-stats.demolab.com?user=ekql-ops&theme=dark&hide_border=true&background=0d1117&stroke=21262d&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)
+
+</div>
 
 ---
 
-📫 bakri20041@outlook.com · Manchester, UK · Open to placements and part-time roles
+<div align="center">
+
+📫 bakri20041@outlook.com &nbsp;·&nbsp; Manchester, UK &nbsp;·&nbsp; Open to placements and part-time roles
+
+</div>
