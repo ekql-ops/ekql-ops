@@ -14,6 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The stats card reads user-level contribution data over GraphQL, which
+      # the repo-scoped GITHUB_TOKEN cannot access ("Resource not accessible by
+      # integration"). It needs STATS_TOKEN, a PAT held as a repo secret. The
+      # fallback keeps top-langs working if that secret is ever absent.
+      #
       # Pinned to a commit SHA rather than the @v1 tag on purpose: the tag is
       # reachable via a redirect from the abandoned readme-tools org, whose
       # name could be re-registered by a third party. A SHA cannot be repointed.
@@ -23,7 +28,7 @@ jobs:
           card: stats
           options: username=ekql-ops&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=8b949e&text_color=8b949e&rank_icon=github
           path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1
@@ -31,7 +36,7 @@ jobs:
           card: top-langs
           options: username=ekql-ops&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e
           path: assets/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Commit updated cards
         run: |
